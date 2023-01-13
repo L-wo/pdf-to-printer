@@ -128,7 +128,7 @@ describe("paper size", () => {
     };
 
     return expect(print(filename, options)).rejects.toBe(
-      "Invalid paper size provided. Valid names: A2, A3, A4, A5, A6, letter, legal, tabloid, statement"
+      "Invalid paper size provided. Valid names: A2, A3, A4, A5, A6, letter, legal, tabloid, statement, 102mm Continuous Roll"
     );
   });
 });
