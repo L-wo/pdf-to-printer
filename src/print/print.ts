@@ -34,6 +34,7 @@ const validPaperSizes = [
   "legal",
   "tabloid",
   "statement",
+  "102mm Continuous Roll"
 ];
 
 export default async function print(
